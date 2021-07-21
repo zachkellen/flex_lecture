@@ -1,0 +1,24 @@
+h1 {
+    color: green;
+}
+
+/* Flex Container */
+#parent {
+    background-color: aquamarine;
+    min-height: 400px;
+    display: flex;
+    /* Horizontal alignment placement */
+    justify-content: center;
+    /* Vertical alignment and placement */
+    align-items: center;
+    /* If we want to add in a space between still */
+    gap: 20px;
+}
+
+/* Flex Items */
+.child {
+    background-color: coral;
+    width: 200px;
+    min-height: 200px;
+    /* display: inline-block;       This works, but is on the child, not the parent. Make boxes side by side*/
+}
